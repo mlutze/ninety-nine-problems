@@ -1,0 +1,8 @@
+# class files
+*.class
+
+# other compilation output
+/target
+
+# local flix jar
+flix.jar

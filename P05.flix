@@ -1,6 +1,6 @@
 // Reverse a list.
 namespace P05 {
-    def reverse(l: List[a]): List[a] = reverseHelper(l, Nil)
+    pub def reverse(l: List[a]): List[a] = reverseHelper(l, Nil)
 
     def reverseHelper(l: List[a], acc: List[a]): List[a] = match l {
         case Nil => acc
