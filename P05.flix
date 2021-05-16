@@ -9,7 +9,7 @@ namespace P05 {
 
     @test
     def testReverse01(): Bool =
-        reverse(Nil) == Nil
+        reverse(Nil: List[Int]) == Nil: List[Int]
     
     @test
     def testReverse02(): Bool =

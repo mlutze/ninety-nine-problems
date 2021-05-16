@@ -10,7 +10,7 @@ namespace P02 {
 
     @test
     def testNextToLast01(): Bool = 
-        nextToLast(Nil) == None
+        nextToLast(Nil: List[Int]) == None
 
     @test
     def testNextToLast02(): Bool = 

@@ -9,7 +9,7 @@ namespace P01 {
 
     @test
     def testLast01(): Bool = 
-        last(Nil) == None
+        last(Nil: List[Int]) == None
 
     @test
     def testLast02(): Bool = 

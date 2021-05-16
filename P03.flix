@@ -8,7 +8,7 @@ namespace P03 {
 
     @test
     def testkth01(): Bool = 
-        kth(Nil, 0) == None
+        kth(Nil: List[Int], 0) == None
 
     @test
     def testkth02(): Bool = 

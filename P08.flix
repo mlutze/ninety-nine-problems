@@ -2,7 +2,7 @@
 // If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
 namespace P08 {
 
-    def eliminateDuplicates(l: List[a]): List[a] = match l {
+    def eliminateDuplicates(l: List[a]): List[a] with Eq[a] = match l {
         case Nil => Nil
         case x :: Nil => x :: Nil
         case x :: y :: rs => 
