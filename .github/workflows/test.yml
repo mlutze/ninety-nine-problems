@@ -14,4 +14,4 @@ jobs:
     - uses: mlutze/flix-test-action@v0.2.10
       with:
         version-type: 'nightly'
-        nightly-date: '2020-05-16'
+        nightly-date: '2021-05-16'
