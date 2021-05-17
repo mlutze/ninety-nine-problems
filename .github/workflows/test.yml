@@ -11,7 +11,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.11
-    - uses: mlutze/flix-test-action@v0.2.7
+    - uses: mlutze/flix-test-action@v0.2.8
       with:
         version-type: 'nightly'
         nightly-date: '2020-05-16'
