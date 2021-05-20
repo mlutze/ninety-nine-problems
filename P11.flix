@@ -1,5 +1,5 @@
 namespace P11 {
-  enum Group[a] {
+  pub enum Group[a] {
     case One(a)
     case Many(Int, a)
   }
